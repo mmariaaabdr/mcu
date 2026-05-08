@@ -89,7 +89,7 @@ int main ()
     led_task_init();
     while(1)
     {
-        stdio_task_handle();
+        // stdio_task_handle();
         protocol_task_handle(stdio_task_handle());
         led_task_handle();
     }
